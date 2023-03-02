@@ -10,7 +10,7 @@
       "name",
       "number",
       "balance",
-      "currency"
+      ["currency"]
     ],
     "properties": {
       "id": {
@@ -30,7 +30,7 @@
       },
       "currency": {
         "type": "string",
-        "enum": ["RUB","USD"]
+        "enum": ["RUR","USD"]
       }
     }
   }
